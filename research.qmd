@@ -23,7 +23,7 @@ After harmonizing a county-level mortality dataset by race from 1959 to 2024, I 
 
 [Canada]{.eyebrow}
 
-There is surprisingly little evidence on how geographical patterns of mortality have changed in Canada, even though such work has proved fruitful for understanding population health trends in other high in come countries. I plan to investigate the geography of mortality in Canada from the 1970s to present, including comparisons of immigrant and non-immigrant populations.
+There is surprisingly little evidence on how geographical patterns of mortality have changed in Canada, even though such work has proved fruitful for understanding population health trends in other high income countries. I plan to investigate the geography of mortality in Canada from the 1970s to present, including comparisons of immigrant and non-immigrant populations.
 
 *Work at planning stage*
 
