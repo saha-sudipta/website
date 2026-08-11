@@ -1,0 +1,57 @@
+---
+title: "Teaching"
+---
+
+My teaching philosophy centers on three core principles: grounding methods in real-world relevance, cultivating a safe and participatory learning space, and embracing a diversity of learning styles. 
+
+I have been a teaching fellow in graduate-level quantitative courses primarily aimed at Master’s and PhD students in public health, as well as a tutor for students preparing for qualifying exams.
+
+## Courses
+
+::: {.course-list}
+::: {.course-entry}
+[Teaching Assistant]{.course-role}
+**Health Justice — Perspectives on Politics, Power, and the Environment** &mdash; Harvard T.H. Chan School of Public Health, Fall 2025. Instructors: Natalia Linos, Emy Takinami. For MPH students.
+:::
+
+::: {.course-entry}
+[Teaching Assistant]{.course-role}
+**Advanced Epidemiologic Methods** &mdash; Harvard T.H. Chan School of Public Health, Fall 2024. Instructor: James Robins. For PhD students.
+:::
+
+::: {.course-entry}
+[Teaching Assistant]{.course-role}
+**Developing a Research Protocol** &mdash; Harvard T.H. Chan School of Public Health, Spring 2024. Instructor: Jarvis T. Chen. For PhD and MS students.
+:::
+
+::: {.course-entry}
+[Teaching Assistant]{.course-role}
+**Multilevel Statistical Methods: Concepts and Application** &mdash; Harvard T.H. Chan School of Public Health, Spring 2023. Instructor: SV Subramanian. For PhD and MS students.
+:::
+
+::: {.course-entry}
+[Teaching Assistant]{.course-role}
+**Quantitative Research Methods in Population Health Sciences** &mdash; Harvard T.H. Chan School of Public Health, Fall 2022&ndash;Spring 2023. Instructors: Jarvis Chen, Issa Dahabreh, Margaret McConnell, Tyler VanderWeele. For PhD students.
+:::
+
+::: {.course-entry}
+[Teaching Assistant]{.course-role}
+**Public Health Disparities Geocoding Project** &mdash; Harvard T.H. Chan School of Public Health, Summer 2022. Instructors: Nancy Krieger, Jarvis Chen. For public health professionals.
+:::
+
+::: {.course-entry}
+[Teaching Assistant]{.course-role}
+**Global Perspectives on Power, Racism, and Poverty** &mdash; Harvard T.H. Chan School of Public Health, Spring 2022. Instructor: Margareta Matache. For MPH students.
+:::
+
+::: {.course-entry}
+[Teaching Assistant]{.course-role}
+**Introduction to Demographic Methods** &mdash; Harvard T.H. Chan School of Public Health, Fall 2018. Instructor: Marcia Castro. For PhD and MS students.
+:::
+:::
+
+<!-- ## Student Evaluations -->
+
+
+<!-- ## Mentoring -->
+

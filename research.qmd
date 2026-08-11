@@ -1,0 +1,138 @@
+---
+title: "Research"
+---
+
+I approach population health as an empirical record of how inequitable social arrangements are embodied, shaping who lives, who dies, and how these patterns change over time. By drawing on different methodological approaches I am interested in understanding how macro social forces affect health inequalities within and across populations.
+
+My dissertation focused on racial and geographical inequalities in premature mortality in the United States from the 1960s to present. My postdoctoral work deals with teasing apart contextual vs selection effects on long-term immigrant health by comparing immigrant outcomes between Canada and the US.
+
+## Ongoing Projects
+
+::: {.panel-tabset}
+
+### Long-run changes in geographical inequality
+
+
+[United States]{.eyebrow}
+
+Investigating long-run changes in the geography of mortality at sub-national levels can help generate hypotheses about the political, economic and structural forces shaping health inequalities. Factors that explain cross-sectional spatial variation in mortality may not be the ones that explain *change* in spatial patterns over time.
+
+After harmonizing a county-level mortality dataset by race from 1959 to 2024, I used Bayesian spatio-temporal models to generate small area estimates. I find that as Black–White inequities declined nationally, geographic inequities widened for both populations. This divergence reflects a two-stage process: an early period of substantial reshuffling in counties’ relative positions, followed by increasing entrenchment in recent decades. I also document major shifts in the spatial distribution of mortality risk, with the regions comprising the highest-mortality areas changing over time in ways that differ between Black and White populations. 
+
+*Manuscript in preparation*
+
+[Canada]{.eyebrow}
+
+There is surprisingly little evidence on how geographical patterns of mortality have changed in Canada, even though such work has proved fruitful for understanding population health trends in other high in come countries. I plan to investigate the geography of mortality in Canada from the 1970s to present, including comparisons of immigrant and non-immigrant populations.
+
+*Work at planning stage*
+
+
+### The Great Migration and mortality changes in destination cities
+
+Over the second half of the 20th century the relative position of counties outside the US South worsened in terms of Black mortality rates. This period encompassed the second half of the Second Great Migration.
+
+Drawing on evidence from economics, sociology, and political science on local responses to the Second Great Migration, I use a shift-share instrumental variable strategy to estimate its long-run effects on mortality. I find that destinations that experienced larger increases in Black populations between 1940 and 1970 have persistently higher Black premature mortality rates, with no corresponding effect on White mortality. These findings suggest that local institutional and political responses to migration had enduring consequences for population health.
+
+*Manuscript in preparation* 
+
+
+### Destination contexts vs selection effects on immigrant health
+
+Migration shapes long-term inequality and well-being, and immigrant health provides an integrative measure of post-migration conditions. Although immigrants often arrive healthier than native-born populations, evidence on how this advantage evolves over time is mixed, suggesting an important role for destination contexts. Estimating the causal effects of destination contexts is difficult because immigration policies strongly shape who migrates where, making it difficult to 
+disentangle contextual from selection effects.
+
+Canada and the United States have overlap in immigrant origin countries and
+cohorts, but the two countries differ markedly in immigration regimes, welfare institutions, and healthcare systems. A cross-national comparison of these countries can evaluate whether immigrants’ long-term mortality trajectories diverge beyond what can be explained by selection alone.
+
+Using comparable mortality-linked survey data, I aim to estimate the causal effect of national context (Canada versus the United States) on long-term immigrant mortality, for a common baseline immigrant population defined at arrival. 
+
+<!-- *Work in progress*  -->
+
+
+:::
+
+<!-- ## Methodological Research Areas -->
+
+
+
+## Past Projects
+
+::: {.panel-tabset}
+
+### Hospital Processes and Outcomes in Ontario
+
+As a data scientist working with [GEMINI](https://geminimedicine.ca/), I was involved in a number of studies using encounter-level hospital data on patient characteristics, physician characteristics, investigation orders and results, and patient outcomes. As patients are pseudo-randomly allocated to General Internal Medicine physicians from the Emergency Department, we were able to investigate between-doctor variation in processes of care and outcomes.
+
+### Infectious Diseases
+
+With an adjunct affiliation with the Child Health Research Foundation in Dhaka, Bangladesh, I have been involved in providing methodological input and training on projects, as well as conducting analyses for some projects. For example, we estimated, for the first time, the secondary effects that Respiratory Syncytial Virus (RSV) has on the health care system in a resource-constrained setting. Although relatively low-mortality compared to other diseases, the high prevalence of the disease means that a large number of beds are occupied by RSV cases during peak seasons, which leads to other cases being denied admissions due to bed shortages, which dramatically increases their mortality risk. We modeled the beneficial effects that RSV vaccinations would have on the health system. Our work was published in [Lancet Global Health](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00048-8/fulltext).
+
+:::
+
+## Publications
+
+::: {.bib-list}
+::: {.bib-entry}
+[2025]{.bib-year}
+Saha, S., **Saha, S.**, Kanon, N., Hooda, Y., Islam, M. S., Islam, S., ... & Saha, S. K. (2025). Health-care burden related to respiratory syncytial virus in a resource-constrained setting: a prospective observational study. *The Lancet Global Health*, 13(6), e1072-e1081.
+:::
+
+::: {.bib-entry}
+[2023]{.bib-year}
+McIntyre, M. T., **Saha, S.**, Morris, A. M., Lapointe-Shaw, L., Tang, T., Weinerman, A., ... & Razak, F. (2023). Physician antimicrobial prescribing and patient outcomes on general medical wards: a multicentre retrospective cohort study. *CMAJ*, 195(32), E1065-E1074.
+:::
+
+::: {.bib-entry}
+[2023]{.bib-year}
+Weinerman, A. S., Guo, Y., **Saha, S.**, Yip, P. M., Lapointe-Shaw, L., Fralick, M., ... & Verma, A. A. (2023). Data-driven approach to identifying potential laboratory overuse in general internal medicine (GIM) inpatients. *BMJ Open Quality*, 12(3).
+:::
+
+::: {.bib-entry}
+[2023]{.bib-year}
+Waters, R., Malecki, S., Lail, S., Mak, D., **Saha, S.**, Jung, H. Y., Imrit, M. A., Razak, F., & Verma, A. A. (2023). Automated identification of unstandardized medication data: a scalable and flexible data standardization pipeline using RxNorm on GEMINI multicenter hospital data. *JAMIA Open*, 6(3), ooad062.
+:::
+
+::: {.bib-entry}
+[2022]{.bib-year}
+Brown, H. K., **Saha, S.**, Chan, T. C., Cheung, A. M., Fralick, M., Ghassemi, M., ... & Verma, A. A. (2022). Outcomes in patients with and without disability admitted to hospital with COVID-19: a retrospective cohort study. *CMAJ*, 194(4), E112-E121.
+:::
+
+::: {.bib-entry}
+[2022]{.bib-year}
+Khan, R., **Saha, S.**, Gimpaya, N., Bansal, R., Scaffidi, M. A., Razak, F., ... & Grover, S. C. (2022). Outcomes for upper gastrointestinal bleeding during the first wave of the COVID-19 pandemic in the Toronto area. *Journal of Gastroenterology and Hepatology*, 37(5), 878-882.
+:::
+
+::: {.bib-entry}
+[2022]{.bib-year}
+Sergeant, A., **Saha, S.**, Lalwani, A., Sergeant, A., McNair, A., Larrazabal, E., ... & Razak, F. (2022). Diversity among health care leaders in Canada: a cross-sectional study of perceived gender and race. *CMAJ*, 194(10), E371-E377.
+:::
+
+::: {.bib-entry}
+[2021]{.bib-year}
+Sergeant, A., **Saha, S.**, Shin, S., Weinerman, A., Kwan, J. L., Lapointe-Shaw, L., Tang, T., Hawker, G., Rochon, P. A., Verma, A. A., & Razak, F. (2021). Variations in processes of care and outcomes for hospitalized general medicine patients treated by female vs male physicians. *JAMA Health Forum*, 2(7), e211615.
+:::
+
+::: {.bib-entry}
+[2021]{.bib-year}
+Knight, J. R., Dunne, E. M., Mulholland, E. K., **Saha, S.**, Satzke, C., Tothpal, A., & Weinberger, D. M. (2021). Determining the serotype composition of mixed samples of pneumococcus using whole-genome sequencing. *Microbial Genomics*, 7(1), 000494.
+:::
+
+::: {.bib-entry}
+[2021]{.bib-year}
+Verma, A. A., Pai, M., **Saha, S.**, Bean, S., Fralick, M., Gibson, J. L., ... & Razak, F. (2021). Managing drug shortages during a pandemic: tocilizumab and COVID-19. *CMAJ*, 193(21), E771-E776.
+:::
+
+::: {.bib-entry}
+[2020]{.bib-year}
+Nsoesie, E. O., Lima Neto, A. S., Jay, J., Wang, H., Zinszer, K., **Saha, S.**, Maharana, A., Marinho, F., & Soares Filho, A. M. (2020). Mapping disparities in homicide trends across Brazil: 2000-2014. *Injury Epidemiology*, 7(1), 47.
+:::
+
+::: {.bib-entry}
+[2015]{.bib-year}
+**Saha, S.**, Modak, J. K., Naziat, H., Al-Emran, H. M., Chowdury, M., Islam, M., ... & Saha, S. K. (2015). Detection of co-colonization with *Streptococcus pneumoniae* by algorithmic use of conventional and molecular methods. *Vaccine*, 33(5), 713-718.
+:::
+:::
+
+<!-- ## Works in Progress -->
+

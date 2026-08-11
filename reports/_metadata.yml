@@ -1,0 +1,9 @@
+# Applies to every .qmd file in this folder and its subfolders.
+# This is what keeps the reports section out of search engines and
+# Quarto's own site search, on top of the password encryption applied
+# at deploy time (see ../README.md, "Password-protecting the reports section").
+
+include-in-header:
+  - noindex.html
+
+search: false        # exclude from Quarto's built-in site search index

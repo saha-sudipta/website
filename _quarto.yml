@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Sudipta Saha"
+  site-url: "https://sudipta-saha.com"
+  description: "Postdoctoral Fellow, University of Toronto"
+  favicon: images/favicon.svg
+  navbar:
+    background: light
+    pinned: true
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+      - href: teaching.qmd
+        text: Teaching
+      - href: contact.qmd
+        text: Contact
+    right:
+      - text: "Scholar"
+        href: "https://scholar.google.com/citations?user=00htLREAAAAJ"
+      - icon: github
+        href: "https://github.com/saha-sudipta"
+      - icon: envelope
+        href: "mailto:sudipta.saha@utoronto.ca"
+  page-footer:
+    left: "© Sudipta Saha"
+  # right: "Built with [Quarto](https://quarto.org)"
+    background: light
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    page-layout: article
+    grid:
+      body-width: 780px
+    smooth-scroll: true
+    link-external-newwindow: true

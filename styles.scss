@@ -1,0 +1,324 @@
+/*-- scss:defaults --*/
+
+// ---- Palette -----------------------------------------------------------
+$paper:        #f7f0e3;   // warm cream
+$paper-dim:    #efe3cd;
+$ink:          #262622;   // warm charcoal, not pure black
+$ink-soft:     #6b6355;
+$accent:       #3f8f7d;   // teal green
+$accent-light: #5aab98;
+$brass:        #c1622c;   // burnt terracotta
+$hairline:     #ddd0b3;
+
+$body-bg:    $paper;
+$body-color: $ink;
+
+$link-color:       $accent;
+$link-hover-color: $accent-light;
+
+$font-family-sans-serif: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-serif:      "Newsreader", Georgia, "Times New Roman", serif;
+
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 500;
+$headings-color:       $ink;
+$h2-font-size:          1.6rem;
+$h3-font-size:          1.2rem;
+
+$navbar-bg: $paper;
+$navbar-fg: $ink;
+$navbar-hl: $accent;
+
+$toc-color: $accent;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
+
+body {
+  font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+// ---- Navbar --------------------------------------------------------------
+.navbar {
+  border-bottom: 1px solid $hairline;
+  box-shadow: none;
+}
+.navbar-brand {
+  font-family: $font-family-serif;
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: $ink !important;
+}
+.navbar .nav-link {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $ink-soft !important;
+  padding: 0.5rem 0.9rem !important;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: $accent !important;
+}
+
+// ---- Headings & section dividers -----------------------------------------
+h2 {
+  margin-top: 2.75rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+h2::after {
+  content: "";
+  display: block;
+  margin-top: 0.5rem;
+  height: 3px;
+  width: 46px;
+  background: $accent;
+}
+h2 + * {
+  margin-top: 1rem;
+}
+
+// ---- Hero / name block (index.qmd) ----------------------------------------
+.hero {
+  padding: 2.25rem 0 0.5rem 0;
+}
+.name {
+  font-family: $font-family-serif;
+  font-size: 2.6rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.15rem;
+}
+.role {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $ink-soft;
+  margin-bottom: 1rem;
+}
+
+.status-badge {
+  display: inline-block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $paper;
+  background: $accent;
+  padding: 0.35rem 0.7rem;
+  border-radius: 2px;
+  margin-bottom: 1.75rem;
+}
+
+// ---- Intro grid (photo + bio) ---------------------------------------------
+.intro-grid {
+  display: grid;
+  grid-template-columns: 168px 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 1.75rem;
+}
+.headshot {
+  width: 168px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid $hairline;
+}
+.intro-text p {
+  margin-bottom: 0.9rem;
+}
+@media (max-width: 620px) {
+  .intro-grid {
+    grid-template-columns: 1fr;
+  }
+  .headshot {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.contact-row {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.85rem;
+  color: $ink-soft;
+  padding-top: 0.75rem;
+  border-top: 1px solid $hairline;
+}
+
+// ---- Bibliography-style publication lists ----------------------------------
+.bib-list {
+  margin-top: 1rem;
+}
+.bib-entry {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid $hairline;
+}
+.bib-entry:first-child {
+  border-top: 1px solid $hairline;
+}
+.bib-entry p {
+  margin: 0;
+}
+.bib-year {
+  display: inline-block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  color: $brass;
+  letter-spacing: 0.03em;
+  margin-right: 0.6rem;
+}
+.bib-entry em {
+  color: $ink-soft;
+}
+
+// ---- Teaching / course list -------------------------------------------------
+.course-list {
+  margin-top: 1rem;
+}
+.course-entry {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid $hairline;
+}
+.course-entry:first-child {
+  border-top: 1px solid $hairline;
+}
+.course-role {
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $brass;
+  margin-bottom: 0.2rem;
+}
+
+// ---- Buttons (CV download, etc.) ---------------------------------------------
+.btn.btn-outline-dark {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border-color: $ink;
+  color: $ink;
+}
+.btn.btn-outline-dark:hover {
+  background: $ink;
+  border-color: $ink;
+}
+
+// ---- Reports listing (best-effort match to Quarto's default listing markup;
+// harmless no-op if a class name below doesn't match your Quarto version) ------
+.quarto-listing .listing-date,
+.quarto-listing .listing-date-vertical {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  color: $brass;
+}
+.quarto-listing .listing-title {
+  font-family: $font-family-serif;
+  font-weight: 500;
+}
+.quarto-listing .listing-subtitle,
+.quarto-listing .listing-description {
+  color: $ink-soft;
+}
+
+// ---- Panel tabsets (horizontal topic tabs, e.g. Research page) ------------
+.panel-tabset > .nav-tabs {
+  border-bottom: 1px solid $hairline;
+  gap: 0.25rem;
+  flex-wrap: nowrap;
+}
+.panel-tabset > .nav-tabs .nav-item {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.panel-tabset > .nav-tabs .nav-link {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $ink-soft;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  padding: 0.6rem 0.7rem;
+  margin-bottom: -1px;
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-align: center;
+  line-height: 1.3;
+}
+.panel-tabset > .nav-tabs .nav-link:hover {
+  color: $ink;
+  border-bottom-color: $hairline;
+  isolation: isolate;
+}
+.panel-tabset > .nav-tabs .nav-link.active {
+  color: $accent;
+  background: transparent;
+  border-bottom-color: $accent;
+}
+// On very narrow phones, equal-width shrinking gets cramped —
+// fall back to the original stacked-tabs behavior below 480px.
+@media (max-width: 480px) {
+  .panel-tabset > .nav-tabs {
+    flex-wrap: wrap;
+  }
+  .panel-tabset > .nav-tabs .nav-item {
+    flex: 1 1 auto;
+  }
+}
+.panel-tabset > .tab-content {
+  padding-top: 1.4rem;
+}
+
+.eyebrow {
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $brass;
+  margin-top: 1.1rem;
+  margin-bottom: 0.35rem;
+}
+.tab-pane .eyebrow:first-child {
+  margin-top: 0;
+}
+
+// ---- Footer -------------------------------------------------------------------
+.nav-footer {
+  border-top: 1px solid $hairline;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: $ink-soft;
+}
+
+// ---- Accessibility: visible focus ----------------------------------------------
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid $accent;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,39 @@
+---
+title: ""
+page-layout: article
+---
+
+::: {.hero}
+# Sudipta Saha{.name}
+
+::: {.role}
+Data Sciences Institute — School of Cities Postdoctoral Fellow &middot; University of Toronto
+:::
+
+<!-- ::: {.status-badge} -->
+<!-- :::  -->
+
+:::
+
+::: {.intro-grid}
+::: {.intro-photo}
+![](images/headshot.jpg){.headshot}
+:::
+
+::: {.intro-text}
+I am a Postdoctoral Fellow at the University of Toronto, working at the Dalla Lana School of Public Health and the Department of Sociology. I am funded by a [Data Sciences Institute](https://datasciences.utoronto.ca/) and [School of Cities](https://schoolofcities.utoronto.ca/) fellowship. I received my Ph.D. in Population Health Sciences from Harvard University.
+
+My research interest is in the political economy of health and health inequalities. Combining demographic, econometric and epidemiological methods, I study long-run changes in mortality to understand how big, slow-moving social forces are embodied and manifest as unequal patterns of population health. My dissertation examines how racial and geographic inequalities in premature mortality in the United States have evolved since the 1950s. I find that the spatial patterns and variability of mortality experiences have changed dramatically. I also find evidence that racial inequality in mortality worsened in urban areas where Black people migrated to during the Second Great Migration, likely due to the local racial backlash that followed.
+
+I bring an interdisciplinary lens to my work, and continue to engage in other fields (e.g. infectious diseases, health systems), drawing on my diverse experiences and training opportunities.
+
+I received my B.Sc. with Honours in Microbiology (specialist), Global Health (major) and English (minor) from University of Toronto in 2016.
+
+:::
+:::
+
+::: {.contact-row}
+[sudipta.saha@utoronto.ca](mailto:sudipta.saha@utoronto.ca) &middot; [CV](files/cv.pdf) &middot; [Google Scholar](https://scholar.google.com/citations?user=00htLREAAAAJ) 
+
+<!-- &middot; [GitHub](https://github.com/saha-sudipta) -->
+:::

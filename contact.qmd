@@ -1,0 +1,11 @@
+---
+title: "Contact"
+---
+
+I'm happy to hear from prospective collaborators, students, discussants, or anyone interested in my work. Email is the best way to reach me.
+
+**Email:** [sudipta.saha@utoronto.ca](mailto:sudipta.saha@utoronto.ca)
+
+::: {.contact-row}
+[Google Scholar](https://scholar.google.com/citations?user=00htLREAAAAJ) 
+:::

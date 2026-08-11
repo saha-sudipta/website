@@ -1,0 +1,20 @@
+---
+title: "Example update: replace me with your first real report"
+date: 2026-08-08
+subtitle: "One-line summary of what this update covers"
+---
+
+This is a placeholder post so you can see how the reports listing works end
+to end. Delete it once you've added a real one.
+
+## How to add a new report
+
+1. Duplicate this whole folder (`reports/posts/2026-08-08-example-update/`)
+2. Rename it to match your new post, e.g. `reports/posts/2026-09-01-first-draft-results/`
+3. Update the `title`, `date`, and `subtitle` in this file's front matter
+4. Write the update below the `---`
+5. Re-render and re-deploy (see the main `README.md` for the full deploy
+   command, which re-encrypts this section automatically)
+
+You can write anything here you'd write in a normal `.qmd` file — figures,
+code chunks, tables, embedded PDFs, whatever's useful for the update.

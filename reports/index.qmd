@@ -1,0 +1,13 @@
+---
+title: "In-Progress Reports"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, subtitle]
+  feed: false
+---
+
+Notes and drafts I'm sharing with collaborators as work progresses. Everything here is preliminary and unpublished — please don't cite, forward, or post it elsewhere without checking with me first.
+
+If you've lost this link, email me and I'll resend it.
