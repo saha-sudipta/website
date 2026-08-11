@@ -38,3 +38,4 @@ rsconnect/
 README.md
 .DS_Store
 .env
+/_site/

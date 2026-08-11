@@ -1,9 +1,0 @@
-Replace this folder's placeholder with your real headshot.
-
-1. Add a photo here named exactly:  headshot.jpg
-   (or update the filename referenced in index.qmd if you'd rather use .png)
-2. Square-ish crop works best (the CSS crops it to a square automatically).
-3. Aim for at least 500x500px so it stays sharp.
-
-Until you add a real photo, index.qmd points at a placeholder SVG
-(images/headshot-placeholder.svg) so the page still renders cleanly.

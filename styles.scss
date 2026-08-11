@@ -123,14 +123,15 @@ h2 + * {
 // ---- Intro grid (photo + bio) ---------------------------------------------
 .intro-grid {
   display: grid;
-  grid-template-columns: 168px 1fr;
+  grid-template-columns: 240px 1fr;
   gap: 2rem;
   align-items: start;
   margin-bottom: 1.75rem;
 }
 .headshot {
-  width: 168px;
-  height: 168px;
+  width: 240px;
+  aspect-ratio: 3 / 4;
+  height: auto;
   object-fit: cover;
   border-radius: 3px;
   border: 1px solid $hairline;
@@ -143,8 +144,9 @@ h2 + * {
     grid-template-columns: 1fr;
   }
   .headshot {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    aspect-ratio: 3 / 4;
+    height: auto;
   }
 }
 
