@@ -6,7 +6,7 @@ website:
   title: "Sudipta Saha"
   site-url: "https://sudipta-saha.com"
   description: "Postdoctoral Fellow, University of Toronto"
-  favicon: images/favicon.svg
+  # favicon: images/favicon.svg
   navbar:
     background: light
     pinned: true
