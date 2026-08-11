@@ -36,3 +36,4 @@ rsconnect/
 /.quarto/
 **/*.quarto_ipynb
 README.md
+.DS_Store
